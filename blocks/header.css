@@ -1,0 +1,25 @@
+.header{
+  padding: 34px 11.5% 53px;
+  text-align: center;
+}
+.header__logo{
+  width: 270px;
+  height: 70px;
+}
+.header__title{
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  max-width: 80%;
+  margin: 90px auto 32px;
+}
+.header__subtitle{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 70%;
+  margin: 0 auto 64px;
+}
+.header__image{
+  width: 100%;
+}
