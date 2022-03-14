@@ -89,5 +89,7 @@
   }
   .place__button{
     justify-self: center;
+    width: 288px;
+    text-align: center;
   }
 }
