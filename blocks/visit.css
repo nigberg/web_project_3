@@ -52,3 +52,21 @@
   font-size: 18px;
   line-height: 22px;
 }
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .visit{
+    padding: 4% 0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .visit{
+    padding: 20% 0;
+  }
+  .visit__title{
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .visit__paragraph{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
