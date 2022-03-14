@@ -84,6 +84,9 @@
   .place__description{
     margin: 0 3%;
   }
+  .place__paragraph:last-child{
+    margin: 0;
+  }
   .place__button{
     justify-self: center;
   }
