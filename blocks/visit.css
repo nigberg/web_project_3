@@ -54,11 +54,13 @@
 @media screen and (max-width: 900px){
   .visit{
     padding: 4% 0;
+    min-height: 320px;
   }
 }
 @media screen and (max-width: 500px){
   .visit{
     padding: 20% 0;
+    min-height: 100px;
   }
   .visit__title{
     font-size: 32px;
