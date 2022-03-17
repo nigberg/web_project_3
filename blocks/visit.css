@@ -54,6 +54,9 @@
   .visit{
     padding: 4% 0;
   }
+  .visit__container{
+    min-height: 760px;
+  }
 }
 @media screen and (max-width: 500px){
   .visit{
