@@ -1,5 +1,4 @@
 .visit{
-  min-height: 740px;
   padding: 4% 3%;
 }
 .visit__container{
@@ -54,13 +53,14 @@
 @media screen and (max-width: 900px){
   .visit{
     padding: 4% 0;
-    min-height: 320px;
   }
 }
 @media screen and (max-width: 500px){
   .visit{
     padding: 20% 0;
-    min-height: 100px;
+  }
+  .visit__container{
+    min-height: 300px;
   }
   .visit__title{
     font-size: 32px;
