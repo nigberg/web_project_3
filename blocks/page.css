@@ -1,7 +1,6 @@
 .page{
   max-width: 1280px;
   margin: auto;
-  background-color: #2A2C2F;
   color: white;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -10,14 +9,4 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-}
-@media screen and (max-width: 900px) {
-  .page{
-    max-width: 800px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .page{
-    max-width: 400px;
-  }
 }

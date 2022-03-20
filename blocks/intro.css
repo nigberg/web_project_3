@@ -1,71 +1,71 @@
 .intro{
-  padding: 0 11.5% 118px;
+  padding: 92px 11.5% 118px;
 }
 .intro__title{
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   margin: 0 auto 40px 0;
-  max-width: 70%;
+  max-width: 80%;
 }
 .intro__cite{
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   margin: 0 auto 10px 0;
-  max-width: 50%;
+  max-width: 68%;
 }
 .intro__author{
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  margin: 0 auto 32px 0;
-  max-width: 60%;
+  margin: 10px 0 auto 0;
+  max-width: 72%;
   text-align: right;
 }
 .intro__paragraph{
   font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
-  margin: 0 auto 0 0;
-  max-width: 60%;
-  text-align: justify;
+  margin: 32px 0 0;
+  max-width: 69%;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1279px){
   .intro{
-    padding: 0 3% 90px;
+    padding: 88px 3% 90px;
   }
   .intro__title{
-    max-width: 85%;
+    max-width: 95%;
   }
   .intro__cite{
     max-width: 90%;
   }
   .intro__author{
-    max-width: 95%;
+    max-width: 100%;
+    margin: 10px 25px 0 0;
   }
   .intro__paragraph{
-    max-width: 95%;
+    max-width: 98%;
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
   .intro{
-    padding: 0 2% 90px;
+    padding: 88px 2% 90px;
   }
   .intro__title{
     font-size: 32px;
     line-height: 35px;
-    max-width: 97%;
+    max-width: 95%;
   }
   .intro__cite{
     line-height: 30px;
-    max-width: 97%;
+    max-width: 95%;
   }
   .intro__author{
-    max-width: 97%;
+    max-width: 95%;
   }
   .intro__paragraph{
-    max-width: 97%;
+    max-width: 98%;
   }
 
 }

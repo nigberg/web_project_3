@@ -9,7 +9,7 @@
 .photo-grid__grid-item{
   width: 100%;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1279px){
   .photo-grid{
     padding: 0 2% 88px;
     grid-template-columns: repeat(2, 1fr);
@@ -17,7 +17,7 @@
   }
 
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
   .photo-grid{
     padding: 0 2% 62px;
     grid-template-columns: repeat(1, 1fr);

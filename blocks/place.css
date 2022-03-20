@@ -23,6 +23,7 @@
   line-height: 15px;
   color: #AAAAAA;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .place__artist-name{
   margin: 0;
@@ -44,8 +45,10 @@
 }
 .place__button{
   align-self: start;
+  width: max-content;
+  display: inline-block;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1279px){
   .place{
     grid-template-columns: 340px auto;
     grid-template-rows: auto 340px auto;
@@ -65,7 +68,7 @@
   }
 
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
   .place{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, auto);
@@ -89,7 +92,7 @@
   }
   .place__button{
     justify-self: center;
-    max-width: 288px;
+    width: 90%;
     text-align: center;
   }
 }
