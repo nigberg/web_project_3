@@ -1,5 +1,5 @@
 .places{
-  padding: 0 10% 0;
+  padding: 0 11.5% 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,7 +13,7 @@
 }
 @media screen and (max-width: 767px){
   .places{
-    gap: 30px;
+    gap: 50px;
     padding: 0;
   }
 }

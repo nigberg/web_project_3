@@ -1,5 +1,5 @@
 .intro{
-  padding: 92px 11.5% 118px;
+  padding: 90px 11.5% 116px;
 }
 .intro__title{
   font-weight: 900;
@@ -20,7 +20,7 @@
   font-size: 24px;
   line-height: 34px;
   margin: 10px 0 auto 0;
-  max-width: 72%;
+  max-width: 73%;
   text-align: right;
 }
 .intro__paragraph{
@@ -28,41 +28,41 @@
   font-size: 16px;
   line-height: 26.08px;
   margin: 32px 0 0;
-  max-width: 69%;
+  max-width: 75%;
 }
 @media screen and (max-width: 1279px){
   .intro{
-    padding: 88px 3% 90px;
+    padding: 86px 3% 90px;
   }
   .intro__title{
     max-width: 95%;
   }
   .intro__cite{
-    max-width: 90%;
+    max-width: 95%;
   }
   .intro__author{
     max-width: 100%;
-    margin: 10px 25px 0 0;
+    margin: 10px 8px 0 0;
   }
   .intro__paragraph{
-    max-width: 98%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 767px){
   .intro{
-    padding: 88px 2% 90px;
+    padding: 60px 4% 90px;
   }
   .intro__title{
     font-size: 32px;
     line-height: 35px;
-    max-width: 95%;
+    max-width: 98%;
   }
   .intro__cite{
     line-height: 30px;
-    max-width: 95%;
+    max-width: 98%;
   }
   .intro__author{
-    max-width: 95%;
+    max-width: 98%;
   }
   .intro__paragraph{
     max-width: 98%;

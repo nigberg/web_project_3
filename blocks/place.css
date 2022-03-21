@@ -23,7 +23,7 @@
   line-height: 15px;
   color: #AAAAAA;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.12em;
 }
 .place__artist-name{
   margin: 0;
@@ -92,7 +92,7 @@
   }
   .place__button{
     justify-self: center;
-    width: 90%;
+    width: calc(100% - 72px);
     text-align: center;
   }
 }
